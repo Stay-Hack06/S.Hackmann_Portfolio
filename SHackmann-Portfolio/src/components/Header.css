@@ -1,0 +1,41 @@
+.header {
+    background-color: #6f7c7d; /* Adjust to match the background color of the landing page */
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    display: inline;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #f2ede3; /* Adjust to match the text color on the landing page */
+    padding: 0.5rem 1rem;
+    border: 2px solid #f2ede3; /* Adjust to match the text color */
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-list li a:hover {
+    background-color: #f2ede3; /* Adjust to match the hover background color */
+    color: #6f7c7d; /* Adjust to match the background color of the landing page */
+  }
+  

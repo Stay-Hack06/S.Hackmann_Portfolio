@@ -1,0 +1,32 @@
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/tech-photo.png');
+    background-size: cover;
+    background-position: center;
+    color: #f2ede3;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .landing-text {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: to make text stand out */
+  }
+  
+  .landing-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .landing-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  
