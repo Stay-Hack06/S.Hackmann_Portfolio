@@ -6,19 +6,20 @@
     width: 100%;
     background-color: #6f7c7d; /* Adjust to match the background color */
     color: #f2ede3; /* Match header text color */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Source Code Pro', 'Arial', sans-serif;
     text-align: center;
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
   }
   
-  .content {
+.landing-page  .content {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    max-width: 1200px;
+    position: relative;
+    /* max-width: 1200px; */
   }
   
   .text-section {
@@ -48,5 +49,13 @@
   
   .text-section, .qr-code {
     flex: 1;
+  }
+  
+  #photo-staysha {
+    opacity: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 500px;
   }
   

@@ -1,24 +1,62 @@
 .project-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: #333;
-    color: #f2ede3;
-    padding: 20px; /* Ensure content doesn't touch the edges */
-    box-sizing: border-box;
-    text-align: center;
-  }
-  
-  .project-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .project-section p {
-    font-size: 1.2rem;
-    max-width: 600px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #333;
+  color: #f2ede3;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-section p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.project3-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.thumbnail-link {
+  margin-bottom: 2rem; /* Space between thumbnail and images */
+}
+
+.project-thumbnail {
+  width: 600px; /* Adjust size as necessary */
+  height: auto;
+  border: 2px solid #f2ede3;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.stacked-images {
+  display: flex;
+  gap: 20px;
+}
+
+.project-image {
+  width: 200px; /* Adjust size as necessary */
+  height: auto;
+  border: 2px solid #f2ede3;
+  border-radius: 8px;
+}
+
