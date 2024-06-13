@@ -9,35 +9,49 @@
   color: #f2ede3;
   padding: 20px;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 50px; 
 }
 
-.project-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.project-section p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin-bottom: 2rem;
-}
-
-.project3-content {
+.project-section .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   width: 80%;
   max-width: 1200px;
+  height: 100%;
+
+}
+
+.text-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+.text-section h1 {
+  font-size: 2.5rem; /* Adjust size as necessary */
+  margin: 0;
+}
+
+.text-section p {
+  font-size: 1rem;
+  margin: 0.5rem 0 0;
 }
 
 .thumbnail-link {
-  margin-bottom: 2rem; /* Space between thumbnail and images */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .project-thumbnail {
-  width: 600px; /* Adjust size as necessary */
+  width: 800px; /* Adjust size as necessary */
   height: auto;
   border: 2px solid #f2ede3;
   border-radius: 8px;
@@ -50,7 +64,11 @@
 
 .stacked-images {
   display: flex;
+  flex-direction: row;
   gap: 20px;
+  align-items: center;
+  padding-top: 20px;
+  justify-content: center;
 }
 
 .project-image {
