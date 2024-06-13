@@ -43,7 +43,7 @@
 .qr-code {
   margin-left: 2rem;
   flex: 1;
-  align-self: center; /* Align QR code to the bottom */
+  align-self: center; 
 }
 
 .qr-code img {
@@ -54,7 +54,7 @@
 #photo-staysha {
   opacity: 50%;
   position: absolute;
-  left: 270px;
+  left: 100px;
   bottom: 60px;
   width: 1000px;
 }

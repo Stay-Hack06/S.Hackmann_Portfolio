@@ -18,18 +18,19 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  width: 80%;
-  max-width: 1200px;
   height: 100%;
 
 }
 
 .text-section {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: flex-start; 
+  width: 50%;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 24px;
 }
 
 .text-section h1 {
@@ -47,15 +48,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1;
+  margin: 24px;
 }
 
 .project-thumbnail {
-  width: 800px; /* Adjust size as necessary */
+  width: 100%; /* Adjust size as necessary */
   height: auto;
   border: 2px solid #f2ede3;
   border-radius: 8px;
   transition: transform 0.3s ease;
+  max-width: 800px;
 }
 
 .project-thumbnail:hover {
@@ -69,6 +71,7 @@
   align-items: center;
   padding-top: 20px;
   justify-content: center;
+  width: 100%;
 }
 
 .project-image {
